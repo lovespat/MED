@@ -1,0 +1,22 @@
+.logo {
+    height: 46px;
+    width: auto;
+    margin-left: 10px;
+    background-color: white;
+}
+
+.header {
+    position: relative;
+    background-color: white;
+}
+
+.nav-color{
+    background-color: white;
+}
+
+.navStyle{
+    color: black;
+    font-weight: 500;
+    font-size: medium;
+}
+

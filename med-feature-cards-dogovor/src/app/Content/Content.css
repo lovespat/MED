@@ -1,0 +1,138 @@
+.picCol {
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+}
+
+.firstImage {
+    /* box-shadow: 4px 4px 20px 0 rgba(36, 36, 36, 0.25);  */
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: 450px;
+    width: auto;
+    max-height: 700px;
+    opacity: 0.6;
+    transition: 1s; 
+    filter: grayscale(0%); */
+    max-height: 510px;
+    opacity: 1;
+    transition: 1s;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.firstImage:hover {
+    background-color: black;
+    opacity: 0.7;
+    transform: scale(1.2);
+    /* opacity: 0.8;
+        transform: scale(1.05);
+        filter: grayscale(10%) */
+}
+
+.Services {
+    margin-left: 96px;
+    text-align: left;
+    padding-top: 40px;
+    color: #303030;
+    margin-bottom: 16px;
+}
+
+.Man {
+    margin-left: 146px;
+    max-width: 50px;
+    text-align: left;
+    color: rgb(13, 7, 43)
+}
+
+.Woman {
+    /* margin-left: 146px; */
+    /* width: 100px; */
+    text-align: left;
+    color: rgb(13, 7, 43)
+}
+
+.Children {
+    width: 180px;
+    text-align: left;
+    color: rgb(13, 7, 43)
+}
+
+.tttext {
+    text-align: center;
+    padding-top: 56px;
+}
+
+.secondImg {
+    /* box-shadow: 4px 4px 20px 0 rgba(36, 36, 36, 0.25);  */
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: auto;
+    width: 100%;
+    /* max-height: auto;  */
+    opacity: 0.6;
+    /* transition: 1s;  */
+    filter: grayscale(0%);
+}
+
+/* 
+.secondImg:hover{
+        opacity: 0.8;
+        transform: scale(1.05);
+        filter: grayscale(10%)
+    } */
+*/ .aboveMapText {
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.mapp {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.textCol {
+    text-decoration: none;
+    outline-style: none;
+}
+
+.Doctor {
+    max-width: 100px;
+    padding-left: 10px;
+    text-align: left;
+    color: #303030;
+    font-weight: 900px;
+    font-size: 45px;
+}
+
+.doctorTwo {
+    max-width: 100px;
+    padding-left: 10px;
+    text-align: left;
+    color: #5d1a1a;
+    padding-top: 20px;
+    /* vertical-align: bottom; */
+    font-weight: 900px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.carouselHeader {
+    padding-top: 50px;
+}
+
+/* .figCaption{
+    position: absolute;
+    bottom: 5px;
+} */
+
+/* .plL{
+    background-color: whitesmoke;
+    padding: 50px;
+} */

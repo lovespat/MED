@@ -1,0 +1,23 @@
+.buttonCol {
+    /* background-color: red; */
+    position: relative;
+}
+
+.logoCol {
+    overflow: hidden;
+    background-color: yellowgreen;
+    position: relative;
+}
+
+.logoImage {
+    max-height: 500px;
+    opacity: 1;
+    transition: 1s;
+    background-color: gray;
+}
+
+.logoImage:hover {
+    background-color: black;
+    opacity: 0.4;
+    transform: scale(1.2);
+}
